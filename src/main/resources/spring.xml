@@ -8,4 +8,7 @@
     <bean id="alien"  class="com.parsa.Alien">
 
     </bean>
+    <bean id="laptop" class="com.parsa.Laptop" >
+
+    </bean>
 </beans>
