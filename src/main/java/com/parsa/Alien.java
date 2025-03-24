@@ -5,11 +5,21 @@ public class Alien {
 
     private  int age;
     private  Laptop laptop;
+    private int salary;
+    private  Computer computer;
 
+    public Computer getComputer() {
+        return computer;
+    }
 
-    public Alien(int age, Laptop laptop){
+    public void setComputer(Computer computer) {
+        this.computer = computer;
+    }
+
+    public Alien(int age, Laptop laptop, int salary){
         this.age = age;
         this.laptop = laptop;
+        this.salary = salary;
         System.out.println("Constructor is called woooooooooo");
     }
 
