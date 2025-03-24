@@ -21,7 +21,7 @@ public class App
 //        alien.setAge(31);
 //        alien1.setAge(232);
         System.out.println(alien.getAge());
-        System.out.println(alien1.getAge());
+
 
 
     }
