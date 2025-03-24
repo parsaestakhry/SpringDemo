@@ -7,8 +7,10 @@ public class Alien {
     private  Laptop laptop;
 
 
-    public Alien(int age){
+    public Alien(int age, Laptop laptop){
         this.age = age;
+        this.laptop = laptop;
+        System.out.println("Constructor is called woooooooooo");
     }
 
 
