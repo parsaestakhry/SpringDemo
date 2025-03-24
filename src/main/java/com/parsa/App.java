@@ -18,7 +18,8 @@ public class App
     {
 //        object will be created in this line
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-
+        Desktop desktop = context.getBean("aaa",Desktop.class);
+        desktop.compling();
 
 
 
