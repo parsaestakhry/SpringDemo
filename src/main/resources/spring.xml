@@ -7,13 +7,15 @@
 <!--    <bean id="alien"  class="com.parsa.Alien" scope="prototype" >-->
     <!-- bean definitions here -->
     <bean id="alien"  class="com.parsa.Alien" >
-        <constructor-arg index="1" type="com.parsa.Laptop" ref="laptop"/>
-        <constructor-arg index="0" value="21" />
-        <constructor-arg index="2" value="23"/>
+<!--        <constructor-arg index="1" type="com.parsa.Laptop" ref="laptop"/>-->
+<!--        <constructor-arg index="0" value="21" />-->
+<!--        <constructor-arg index="2" value="23"/>-->
 
-<!--        <property name="age" value="23" ></property>-->
+        <property name="age" value="23" />
 
-<!--        <property name="laptop" ref="laptop"></property>-->
+        <property name="laptop" ref="laptop"/>
+
+
     </bean>
     <bean id="laptop" class="com.parsa.Laptop" >
 
